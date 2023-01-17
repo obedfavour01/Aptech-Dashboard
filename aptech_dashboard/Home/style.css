@@ -1,0 +1,562 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+}
+
+/* Nav */
+.navlinks{
+    height: 131px;
+    width: 98.9vw;
+}
+.navlinks ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+
+}
+.navlinks ul li{
+margin-right: 41px;
+    list-style-type: none;
+}
+.navlinks ul li a{
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18.29px;
+}
+
+.btn{
+ flex:1;
+ margin-right: 111px;
+}
+
+button#register{
+    width: 178px;
+    height: 71px;
+    border-radius: 8px;
+    background-color: #2BB4EA;
+    border: none;
+    position : absolute;
+    right: 100px;
+    
+  
+}
+
+
+/* Banner */
+.banner{
+    height: 44px;
+width: 754px;
+left: 343px;
+top: 109px;
+border-radius: 12px;
+background-color: rgba(74, 150, 104, 1);
+margin: auto;
+text-align: center;
+position: absolute;
+color: white;
+}
+
+.banner h3{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    justify-content: center;
+}
+/* Hero Secton */
+
+.hero{
+    display: flex;
+    background: rgba(20, 85, 77, 1);
+    /* height: 558px; */
+    height: 35vw;
+    /* width: 100vw; */
+    padding: 0 127px;
+  
+
+}
+
+.textBox{
+    margin-top: 124px;
+    flex: 1;
+}
+
+.lightText h1{
+    font-size: 36px;
+    font-weight: 300;
+    line-height: 44px;
+    color:rgba(255, 255, 255, 1);
+    ;
+}
+.heavyText{
+    margin-top: 10px;
+}
+.heavyText h1{
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 58.5px;
+    color:rgba(255, 255, 255, 1);
+
+}
+
+#hero-register{
+    width: 178px;
+    height: 71px;
+    font-size: 15px;
+    font-weight:500;
+    margin-top: 50px;
+   background: rgba(74, 150, 104, 1);
+   border: none;
+   border-radius: 8px;
+
+}
+
+.imgBox{
+    height: 500px;
+    width: 500px;
+    /* border: 3px solid red; */
+    flex: 1;
+    margin-top: 48px;
+    position: relative;
+
+}
+.imgBox img{
+width: 100%;
+}
+
+/* github icon */
+.imgBox #github{
+    position: absolute;
+    top: 0;
+    width: 100px;
+    height: 100px;
+    left: 130px;
+    top: 300px;
+
+}
+
+/* restart icon */
+.imgBox #restart{
+    position: absolute;
+    top: 0;
+    width: 84px;
+    height: 84px;
+    left: 140px;
+    top: 125px;
+
+}
+/* info icon */
+.imgBox #info{
+    position: absolute;
+    top: 0;
+    width: 140px;
+    height: 140px;
+    right: 100px;
+    top: 80px;
+
+}
+/* python icon */
+.imgBox #python{
+    position: absolute;
+    top: 0;
+    width: 180px;
+    height: 180px;
+    right: 50px;
+    top: 300px;
+
+}
+
+
+
+
+
+/* aboutAptech Aptech */
+.aboutAptech{
+    height: 40vw;
+    /* border: 2px solid blue; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.txtBox{
+    flex: 1.2;
+    /* border: 2px solid blue; */
+    align-self: flex-start;
+    margin-top: 6rem;
+    
+}
+.txtBox h3{
+    width: 700px;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+    /* border: 2px solid black; */
+    margin:auto;
+}
+
+.aboutAptech .imgBox{
+    flex: 1;
+    /* border: 2px solid blue; */
+    padding: auto;
+    text-align: center;
+    position:relative;
+
+
+}
+img#peopleImage{
+    width: 353px;
+    height: 353px;
+    border-radius: 50%;
+}
+
+.imgBox h1{
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 48px;
+    margin-bottom: 20px;
+}
+
+.imgBox .blueCircle{
+    height: 77px;
+    width: 77px;
+    border-radius: 50%;
+    background: rgba(43, 180, 234, 1);
+    position:absolute;
+    right: 190px;
+    bottom: 80px;
+ 
+
+}
+
+.imgBox .greenCircle{
+    height: 77px;
+    width: 77px;
+    border-radius: 50%;
+   background: rgba(20, 85, 77, 1);
+    position: absolute;
+    left: 18%;
+    top: 40%;
+}
+
+/* Career section */
+
+.career{
+    background: rgba(0, 0, 0, 1);
+    height: 508px;
+    display: flex;
+    padding: 80px 107px;
+}
+
+.careerTextBox{
+    color: rgba(255, 255, 255, 1);
+    flex: 1;
+
+}
+
+.careerTextBox .bigText{
+font-size: 40px;
+font-weight: 800;
+/* line-height: 59px; */
+letter-spacing: 0em;
+text-align: left;
+
+}
+
+.careerTextBox .smalltext{
+font-size: 24px;
+font-weight: 100;
+line-height: 29px;
+letter-spacing: 0em;
+text-align: left;
+margin: 27px 0;
+}
+
+.career .coursesBtn{
+    background: rgba(43, 180, 234, 1);
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: center;
+    color:rgba(0, 0, 0, 1);
+    height: 71px;
+    width: 366px;
+    border-radius: 8px;
+
+    
+}
+.careerImgBox{
+    flex: 1;
+}
+
+/* schools */
+
+.schools{
+  text-align: center;
+
+}
+
+.schools .IntroBox{
+    margin: 67px auto;
+}
+
+
+.IntroBox .smallTxt{
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+.IntroBox .bigTxt{
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 59px;
+    letter-spacing: 0em;
+
+}
+
+.cards{
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 56px;
+
+}
+.card{
+    height: 42.4rem;
+    width: 36.5rem;
+    border-radius: 44px;
+    padding: 48px 56px ;
+    text-align: justify;
+
+}
+
+.card .header{
+    display: flex;
+    align-items: center;
+    height: 88px;
+    gap:24px;
+    margin: 0;
+    text-align: left;
+}
+
+.card .header .headertopic{
+    color: rgba(255, 255, 255, 1);
+}
+.card .header img{
+    height: 123px;
+    width: 123px;
+
+}
+
+.card .main{
+    margin: 3.7rem 0 2.2rem 0;
+}
+
+.card .main p{
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: justified;
+    margin-bottom: 24px;
+    color: rgba(255, 255, 255, 1);
+
+
+}
+
+.card .btn button{
+    height: 71px;
+    width: 366px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 1);
+    border: none;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0em;
+
+
+}
+
+.card.software{
+    background: rgba(20, 85, 77, 1);
+
+}
+
+.card.design{
+    background: rgba(43, 180, 234, 1);
+
+}
+
+.card.hardware{
+    background: rgba(74, 150, 104, 1);
+
+}
+
+.card.special{
+    background: rgba(245, 189, 19, 1);
+
+}
+
+
+
+/* Get ready */
+
+.ready{
+    display: flex;
+    height: 60vh;
+    justify-content: space-between;
+    margin-top: 151px;
+    background: rgba(43, 180, 234, 1);
+
+    
+    
+}
+
+.ready .textBox{
+    width: 385px;   
+    height: 100%;
+    flex: 1;
+    padding: 94px 30px;
+    margin-top: 0px;
+    
+}
+
+.ready .textBox .bigTxt{
+    width: 100%;
+    font-family: Montserrat;
+    font-size: 36px;
+    font-weight: 800;
+    line-height: 44px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+
+.ready .textBox .smallTxt{
+
+margin: 14px 0px;
+height: 154px;
+width: 382px;
+font-size: 18px;
+font-weight: 300;
+line-height: 22px;
+letter-spacing: 0em;
+text-align: justify;
+
+}
+
+.ready .ImgBox{
+    flex: 1;    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ready .ImgBox img{
+
+    height: 413px;
+    width: 413px;
+    
+}
+
+.ready .textBox #special{
+    height: 71px;
+    width: 366px;
+    text-align: left;
+    border-radius: 8px;
+    border: 2px solid black;
+    display: flex;  
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    background: #000;
+
+}
+.ready .textBox #special p{
+    font-weight: 600;
+    color: white;
+}
+
+
+/* Partners */
+
+.partners{
+height: 50vh;
+display: flex;
+align-items: center;
+justify-content: center;
+font-family: Montserrat;
+font-size: 24px;
+font-weight: 800;
+line-height: 44px;
+letter-spacing: 0em;
+text-align: left;
+}
+
+
+/* footer */
+.footer{
+    height: 60vh;
+    border: 2px solid black;
+    background: rgba(3, 0, 0, 1);
+    padding: 104px 76px;
+
+
+}
+.footerlink{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+.footerlink div{
+   
+    text-align: left;
+}
+
+.footerlink li{
+    list-style-type: none;
+    
+}
+
+.footer h3{
+    color: white;
+    height: 44px;
+    width: 244px
+}
+
+.footerlink li a{
+    text-decoration: none;
+    color: white;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 44px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.footerlink a#topic{
+    color: white;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
