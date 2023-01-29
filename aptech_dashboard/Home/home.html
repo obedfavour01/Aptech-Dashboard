@@ -9,21 +9,34 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;500;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
 </head>
 <body>
+    
     <!-- Navbar -->
 
     <div class="navlinks">
+        <div class="cancel">X</div>
         <ul>
             <li><a href="">Home</a></li>
             <li><a href="">Our Story</a></li>
             <li><a href="">Our Schools</a></li>
             <li><a href="">Tuition</a></li>
-            <li><a href="">FAQs</a></li>
-            <li><a href="">Contact Us</a></li>
+            <li><a href="../FAQ/FAQ.html">FAQs</a></li>
+            <li><a href="../Contact Us/index.html">Contact Us</a></li>
 
             <button id="register">Register</button>
         </ul>
+    </div>
+
+    <div class="navResponsive">
+        <div class="icon">
+            <i class="bi bi-list iconlist" ></i>
+        </div>
+
+        <div class="register">
+            <button>Register</button>
+        </div>
     </div>
 
 <div class="banner">
@@ -50,11 +63,8 @@
     </div>
 
     <div class="imgBox">
-        <img src="Images/Idea.png" id= "idea"alt="">
-        <img src="Images/GitHub.png" id="github" alt="">
-        <img src="Images/Python.png" id= "python" alt="">
-        <img src="Images/Info.png" id = "info"alt="">
-        <img src="Images/Restart.png" id="restart" alt="">
+        <img src="Images/Img101.png" id= "idea"alt="">
+  
     </div>
 </div>
 
@@ -247,10 +257,11 @@
 
             <div id = "special">
                 <p>View specializations</p>
-                <img src="Images/Cursor.png" alt="">
+                <img src="Images/Cursor.png" id = "Cursor"alt="">
             </div>
         </div>
     </div>
+
 
 
     <!-- Partners -->
@@ -299,5 +310,10 @@
 
     <h3>©2023 Aptech Computer Education. All rights reserved.</h3>
 </div>
+
+<script src="../JS/script.js">
+    
+      
+</script>
 </body>
 </html>
